@@ -86,7 +86,14 @@ public class Robot {
 	}
 	
 	public void andarx(int andar)
-	{
+	{ 
+		/*coordx = andar + coordX
+		 * while (coordX!=passos)
+		 * {
+		 *   coordX++
+		 * }
+		 * else {
+		 * coordX--;  */
 		while (this.coordX<andar)
 		{
 			this.coordX++;
