@@ -3,6 +3,10 @@ package robot.ninja.davi;
 public class Robot {
 	 // as variaveis dentro da classe sao chamadas de variaveis de instancia
     private int nivelBateria;
+    private String nome;
+    private char sexo;
+    private int coordX;
+    private int coordY;
     public int getNivelBateria() {
 		return nivelBateria;
 	}
@@ -80,10 +84,17 @@ public class Robot {
 		}
 		return mes;
 	}
-	private String nome;
-    private char sexo;
-    private int coordX;
-    private int coordY;
+	
+	public void andarx(int andar)
+	{
+		int i=1;
+		while (i<=andar)
+		{
+			System.out.println("andando..." + i + " passos");
+			i++;
+		}
+	}
+	
     
 
 }
