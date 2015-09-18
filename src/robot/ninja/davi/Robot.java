@@ -44,7 +44,7 @@ public class Robot {
 	
 	public int qualMes(int mes)
 	{
-		switch (mes){
+		switch (mes){//
 		case 1:
 			System.out.println("Janeiro");
 			break;
@@ -87,11 +87,15 @@ public class Robot {
 	
 	public void andarx(int andar)
 	{
-		int i=1;
-		while (i<=andar)
+		while (this.coordX<andar)
 		{
-			System.out.println("estou na coodernada..." + i);
-			i++;
+			this.coordX++;
+			System.out.println("estou na coodernada..." + this.coordX);
+		}
+		while (this.coordX>andar)
+		{
+			this.coordX--;
+			System.out.println("estou na coodernada..." + this.coordX);
 		}
 	}
 	

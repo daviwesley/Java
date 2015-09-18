@@ -6,7 +6,7 @@ public class TestaRobot {
         Robot r2d2; //r2d2 é uma variavel de referencia
         r2d2 = new Robot();
         r2d2.qualMes(8);
-        r2d2.andarx(20);   
+        r2d2.andarx(10);   
     }
 
 }
