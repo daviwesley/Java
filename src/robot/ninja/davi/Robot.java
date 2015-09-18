@@ -7,6 +7,7 @@ public class Robot {
     private char sexo;
     private int coordX;
     private int coordY;
+    
     public int getNivelBateria() {
 		return nivelBateria;
 	}
