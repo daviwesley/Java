@@ -90,7 +90,7 @@ public class Robot {
 		int i=1;
 		while (i<=andar)
 		{
-			System.out.println("andando..." + i + " passos");
+			System.out.println("estou na coodernada..." + i);
 			i++;
 		}
 	}
