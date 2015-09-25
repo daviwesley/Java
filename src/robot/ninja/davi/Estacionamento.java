@@ -16,5 +16,23 @@ public class Estacionamento {
 			}
 		}
 	}
+	
+	public static float getLucroDia() {
+		return lucroDia;
+	}
+
+	public static void setLucroDia(float lucroDia) {
+		Estacionamento.lucroDia = lucroDia;
+	}
+
+	public void saida(String placa){
+		for (int i = 0; i <vagas.length; i ++){
+			if (vagas[i] !=null && vagas[i].getPlaca().equals(placa)){
+				lucroDia+=5.0f;
+				vagas[i]=null;
+				break;
+			}
+		}
+	}
 
 }
