@@ -1,5 +1,7 @@
 package classes_abstratas;
 
-public class Animal {
-
+abstract public class Animal {
+	 abstract public void comer();
+	 abstract public void dormir();
+	 abstract public void moverse();
 }
